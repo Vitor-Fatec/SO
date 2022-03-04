@@ -1,12 +1,12 @@
 package controller;
-import view.Main;
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class RedesController {
-	Main pri = new Main();
 	
 	public RedesController() {
 		super();
@@ -21,7 +21,7 @@ public class RedesController {
 		
 	}
 	
-	public void  ip(String sistema) {
+	public void  ip( String sistema) {
 		String processw = "ipconfig";
 		String processl = "IFCONFIG";
 		if(sistema.contains("Windows")) {
